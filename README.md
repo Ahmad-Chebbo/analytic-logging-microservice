@@ -91,17 +91,6 @@ Update the .env file with your database credentials.
 php artisan migrate
 ```
 
-
-## Testing:
-
-To run the tests, run the following command <br>
-Note the test will refresh the database records
-
-```bash
-php artisan test
-```
-
-
 ## Running the application
 
 To start the development server, run the following command:
