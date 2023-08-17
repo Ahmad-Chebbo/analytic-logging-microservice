@@ -101,6 +101,21 @@ php artisan serve --port 8001
 
 Then visit http://localhost:8001 to view the application.
 
+# Docker configuration
+
+The repository contains a DockerFile that can be used in the following commands:
+
+```bash
+docker build -t analytics-microservice .
+```
+
+followed by the following commands:
+
+```bash
+docker run -d -p 9001:9000 --name analytics-container analytics-microservice
+```
+
+
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
